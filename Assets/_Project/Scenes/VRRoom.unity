@@ -14492,7 +14492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
   m_InteractionManager: {fileID: 0}
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 32
   m_Handedness: 0
   m_AttachTransform: {fileID: 1642289818}
   m_KeepSelectedTargetValid: 1
