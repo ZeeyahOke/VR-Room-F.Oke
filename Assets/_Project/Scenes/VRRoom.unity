@@ -3671,6 +3671,10 @@ PrefabInstance:
       value: ChessBoard
       objectReference: {fileID: 0}
     - target: {fileID: 1603907031073628, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Name
+      value: WhiteBishop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603907031073628, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3721,6 +3725,10 @@ PrefabInstance:
     - target: {fileID: 1878159687346630, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889770674201340, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Name
+      value: BlackPawn
       objectReference: {fileID: 0}
     - target: {fileID: 1889770674201340, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10163,7 +10171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
   m_InteractionManager: {fileID: 0}
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 16
   m_Handedness: 0
   m_AttachTransform: {fileID: 594751044}
   m_KeepSelectedTargetValid: 1
@@ -14838,7 +14846,7 @@ GameObject:
   - component: {fileID: 1415807842}
   - component: {fileID: 1415807843}
   m_Layer: 0
-  m_Name: RookDark
+  m_Name: BlackRook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20232,7 +20240,7 @@ GameObject:
   - component: {fileID: 1829891270}
   - component: {fileID: 1829891271}
   m_Layer: 0
-  m_Name: KnightLight
+  m_Name: WhiteKnight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
