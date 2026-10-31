@@ -27,6 +27,7 @@ public class NavigationMenuToggle : MonoBehaviour
     private void OnDisable()
     {
         toggleAction.action.performed -= OnTogglePressed;
+        toggleAction.action.Disable();
     }
 
     private void OnTogglePressed(InputAction.CallbackContext context)
