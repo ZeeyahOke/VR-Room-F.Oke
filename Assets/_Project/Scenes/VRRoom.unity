@@ -4908,7 +4908,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
+    rgba: 4281211405
   m_fontColor: {r: 0.05, g: 0.1, b: 0.18, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -23878,13 +23878,52 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1287402585879159235, guid: 278cd79b6d0575544a70c9035c7a440e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1944220662}
   m_SourcePrefab: {fileID: 100100000, guid: 278cd79b6d0575544a70c9035c7a440e, type: 3}
 --- !u!4 &1944220657 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1915742297380584313, guid: 278cd79b6d0575544a70c9035c7a440e, type: 3}
   m_PrefabInstance: {fileID: 1944220656}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1944220658 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5832356130452855646, guid: 278cd79b6d0575544a70c9035c7a440e, type: 3}
+  m_PrefabInstance: {fileID: 1944220656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1944220659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 344744462276475068, guid: 278cd79b6d0575544a70c9035c7a440e, type: 3}
+  m_PrefabInstance: {fileID: 1944220656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1944220660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5931846097522078582, guid: 278cd79b6d0575544a70c9035c7a440e, type: 3}
+  m_PrefabInstance: {fileID: 1944220656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1944220661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1287402585879159235, guid: 278cd79b6d0575544a70c9035c7a440e, type: 3}
+  m_PrefabInstance: {fileID: 1944220656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1944220662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944220661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee933794b44ef47e28d014932b71411c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnalogClock
+  hourHand: {fileID: 1944220660}
+  minuteHand: {fileID: 1944220659}
+  secondHand: {fileID: 1944220658}
+  rotationAxis: {x: 0, y: 1, z: 0}
 --- !u!1001 &1949557528
 PrefabInstance:
   m_ObjectHideFlags: 0
