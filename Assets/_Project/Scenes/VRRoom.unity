@@ -25248,6 +25248,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1121849289}
     m_Modifications:
+    - target: {fileID: 1497057455605857673, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: otherRoomSceneName
+      value: Fawziyyah Room
+      objectReference: {fileID: 0}
     - target: {fileID: 4166464840418813456, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_Camera
       value: 
@@ -25255,6 +25259,10 @@ PrefabInstance:
     - target: {fileID: 4237467835558430798, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_Name
       value: NavigationMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189573785837747062, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_text
+      value: Go to Create with VR Room
       objectReference: {fileID: 0}
     - target: {fileID: 8222609586173291081, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_LocalPosition.x

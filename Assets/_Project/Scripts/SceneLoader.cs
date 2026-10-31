@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private string hubSceneName = "Hub";
+    [SerializeField] private string otherRoomSceneName;
 
     private bool isLoading;
 
@@ -21,5 +22,10 @@ public class SceneLoader : MonoBehaviour
     public void LoadHub()
     {
         LoadScene(hubSceneName);
+    }
+
+    public void LoadOtherRoom()
+    {
+        LoadScene(otherRoomSceneName);
     }
 }
