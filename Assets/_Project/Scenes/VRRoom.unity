@@ -3527,13 +3527,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: '<color=#CDB4F2><b>Try this</b></color>
 
-    1. Find the white knight and
-    place it on its chess square
+    1. Grab the power cell from
+    the shelf on your left and put it in the charger on the console by the door.
 
-    2. Charge the power cell on the storage console
+    2.
+    Open the glass door: grip the handle on its right side and pull it towards you
+    or push it away.
 
-    3.
-    Open the glass door by its handle, push or pull'
+    3. Take the white knight from the top shelf right of the
+    door, carry it to the chessboard in the main room and place it on the glowing
+    square.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bd8a2bf6f506e4f10be260686a7d5e4b, type: 2}
   m_sharedMaterial: {fileID: -9184109103186313305, guid: bd8a2bf6f506e4f10be260686a7d5e4b, type: 2}
@@ -3564,8 +3567,8 @@ MonoBehaviour:
   m_fontSizeBase: 0.5
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 0.35
-  m_fontSizeMax: 0.5
+  m_fontSizeMin: 0.3
+  m_fontSizeMax: 0.42
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -29630,12 +29633,12 @@ MonoBehaviour:
     Left stick: walk     Right
     stick: turn
 
-    Hold A / X or touch a stick: teleport ray
+    Hold A or X: aim teleport, let go to jump
 
-    Grip: grab    
-    Trigger: use or click
+    Grip: grab and
+    hold     Trigger: press buttons
 
-    Menu button: menu and settings'
+    Menu button (left hand): menu and settings'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bd8a2bf6f506e4f10be260686a7d5e4b, type: 2}
   m_sharedMaterial: {fileID: -9184109103186313305, guid: bd8a2bf6f506e4f10be260686a7d5e4b, type: 2}
@@ -29666,8 +29669,8 @@ MonoBehaviour:
   m_fontSizeBase: 0.5
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 0.35
-  m_fontSizeMax: 0.5
+  m_fontSizeMin: 0.3
+  m_fontSizeMax: 0.42
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
