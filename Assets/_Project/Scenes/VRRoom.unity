@@ -185,7 +185,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281211405
+    rgba: 4281868842
   m_fontColor: {r: 0.16470589, g: 0.13333334, b: 0.21960784, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1771,7 +1771,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294965227
+    rgba: 4292659448
   m_fontColor: {r: 0.972549, g: 0.78431374, b: 0.8627451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3258,7 +3258,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4294637311
   m_fontColor: {r: 1, g: 0.9647059, b: 0.98039216, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3276,7 +3276,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.5
+  m_fontSize: 0.4
   m_fontSizeBase: 0.5
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5077,7 +5077,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281211405
+    rgba: 4281868842
   m_fontColor: {r: 0.16470589, g: 0.13333334, b: 0.21960784, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -5095,7 +5095,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.75
+  m_fontSize: 0.65
   m_fontSizeBase: 0.75
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8506,7 +8506,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4292659448
   m_fontColor: {r: 0.972549, g: 0.78431374, b: 0.8627451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -8675,7 +8675,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &725142797
 Canvas:
   m_ObjectHideFlags: 0
@@ -11257,7 +11257,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3657424972
+    rgba: 4294302904
   m_fontColor: {r: 0.72156864, g: 0.8627451, b: 0.9607843, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -21070,7 +21070,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1676938145
 Canvas:
   m_ObjectHideFlags: 0
@@ -22601,7 +22601,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4294637311
   m_fontColor: {r: 1, g: 0.9647059, b: 0.98039216, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -24975,7 +24975,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294959180
+    rgba: 4294096077
   m_fontColor: {r: 0.8039216, g: 0.7058824, b: 0.9490196, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -25919,7 +25919,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4294637311
   m_fontColor: {r: 1, g: 0.9647059, b: 0.98039216, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -28532,9 +28532,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1121849289}
     m_Modifications:
+    - target: {fileID: 786975068218027540, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_fontSize
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 786975068218027540, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4281868842
+      objectReference: {fileID: 0}
     - target: {fileID: 1497057455605857673, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: otherRoomSceneName
       value: Fawziyyah Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271457499123152898, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872935506437100221, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4281868842
       objectReference: {fileID: 0}
     - target: {fileID: 4166464840418813456, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_Camera
@@ -28544,9 +28560,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: NavigationMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 5273788577547548235, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6179423639629439664, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.72
+      objectReference: {fileID: 0}
     - target: {fileID: 6189573785837747062, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_text
       value: Go to Create with VR Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189573785837747062, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_fontSize
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189573785837747062, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4281868842
+      objectReference: {fileID: 0}
+    - target: {fileID: 6525537029636604477, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7459452844992656524, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8222609586173291081, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28587,6 +28627,10 @@ PrefabInstance:
     - target: {fileID: 8222609586173291081, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8638408327496295481, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4292659448
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
