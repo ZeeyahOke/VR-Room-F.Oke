@@ -15856,6 +15856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8848131633059246973}
+  - component: {fileID: 8848131633059246974}
   m_Layer: 0
   m_Name: Hand_Left
   m_TagString: Untagged
@@ -15950,7 +15951,6 @@ Transform:
   m_Children:
   - {fileID: 3148652181503817379}
   - {fileID: 6956472245217963140}
-  - {fileID: 8848131633059246973}
   - {fileID: 1212980217}
   - {fileID: 1503861855}
   m_Father: {fileID: 7196723497757427971}
@@ -16467,7 +16467,6 @@ Transform:
   m_Children:
   - {fileID: 4170055366461652940}
   - {fileID: 190389031534591417}
-  - {fileID: 7111071079955845090}
   - {fileID: 2083952936}
   - {fileID: 711535476}
   m_Father: {fileID: 7196723497757427971}
@@ -16531,8 +16530,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 1
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -17003,7 +17002,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1228268598}
-  m_Father: {fileID: 5010905614370395172}
+  m_Father: {fileID: 7196723497757427971}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7196723497757427971
 Transform:
@@ -17021,6 +17020,8 @@ Transform:
   - {fileID: 1125395381809813730}
   - {fileID: 5010905614370395172}
   - {fileID: 2585083446234198461}
+  - {fileID: 8848131633059246973}
+  - {fileID: 7111071079955845090}
   m_Father: {fileID: 6140488902814369571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7216649109547339369
@@ -17511,7 +17512,7 @@ MonoBehaviour:
   m_Camera: {fileID: 2435125054861409734}
   m_OriginBaseGameObject: {fileID: 155480245869208569}
   m_CameraFloorOffsetObject: {fileID: 5555564888081902322}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!143 &8782996637434274023
 CharacterController:
@@ -17665,8 +17666,106 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 490743989}
-  m_Father: {fileID: 2585083446234198461}
+  m_Father: {fileID: 7196723497757427971}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8848131633059246974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644074632085192676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.XR.TrackedPoseDriver
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: cf467502-d95e-420d-b163-a68f3a46b9a0
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 5d795d3f-5894-4c59-9d3c-f5e4d3201114
+        m_Path: <XRController>{LeftHand}/devicePosition
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Position
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_RotationInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: 2ca8ff1c-e80c-4486-87f4-871b9549ac4a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 744f345c-4e6c-4d62-9d55-3b317ed2ab11
+        m_Path: <XRController>{LeftHand}/deviceRotation
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Rotation
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: 0fb3ca88-b409-4695-b996-e5c49132996c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 4ecd83c2-db3d-4956-9528-0aa7d11d9f09
+        m_Path: <XRController>{LeftHand}/trackingState
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Tracking State
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 34113828-9933-4adc-94c8-89abf6db84c6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2910bd3f-a903-45c8-9ee4-bebc4a732fb6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1 &8913381913062168665
 GameObject:
   m_ObjectHideFlags: 0
@@ -17676,6 +17775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7111071079955845090}
+  - component: {fileID: 8913381913062168666}
   m_Layer: 0
   m_Name: Hand_Right
   m_TagString: Untagged
@@ -17683,6 +17783,104 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8913381913062168666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913381913062168665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.XR.TrackedPoseDriver
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: 8be332ae-8765-462d-86f6-747ef2b3d8b5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: fb6619dd-2514-4cc2-aca7-7f64edc1142d
+        m_Path: <XRController>{RightHand}/devicePosition
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Position
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_RotationInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: 44759966-f648-49d3-bd8d-f651b374ff28
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: cef4ff3e-390b-4286-805a-9a69bd711b29
+        m_Path: <XRController>{RightHand}/deviceRotation
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Rotation
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: bb9cd9e7-93ac-42d4-9b08-61a831354274
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: f786e6fc-de3d-4cb4-929c-65d1fc69f5a1
+        m_Path: <XRController>{RightHand}/trackingState
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Tracking State
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: af0fc5a0-b213-475d-b704-89c0119760ee
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b7b10b7b-a36d-4100-ae6f-0760e4e04955
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
 --- !u!114 &8955975564100313070
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -186,6 +186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4590267763018518495}
+  - component: {fileID: 3214119570882977255}
   m_Layer: 0
   m_Name: Hand_Left
   m_TagString: Untagged
@@ -207,8 +208,106 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7969250295115443825}
-  m_Father: {fileID: 6858637023760749563}
+  m_Father: {fileID: 6125418877841557070}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3214119570882977255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192792231723787929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.XR.TrackedPoseDriver
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: b874bc1b-f869-4279-ba40-95f318153aed
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 60b196a7-5ee3-4a39-83c4-ef89e054a311
+        m_Path: <XRController>{LeftHand}/devicePosition
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Position
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_RotationInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: 433ef789-8858-418e-b043-b5a7afca431e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 36cbfc2c-9ae1-4426-85b5-9bae756d88bd
+        m_Path: <XRController>{LeftHand}/deviceRotation
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Rotation
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: 8238879e-0e41-43cc-9716-6ee4db746fcd
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 22551bd3-d374-424c-b11a-f823cb72aa11
+        m_Path: <XRController>{LeftHand}/trackingState
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Tracking State
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3501c417-a01c-46a2-a786-9e4b3910b3da
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d094930a-717e-4a46-ab97-a07e6941dfc1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1 &1648701028623316336
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,8 +633,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 1
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -604,6 +703,8 @@ Transform:
   - {fileID: 84275501554392002}
   - {fileID: 7027484730591225420}
   - {fileID: 6858637023760749563}
+  - {fileID: 4590267763018518495}
+  - {fileID: 3598295175264900360}
   m_Father: {fileID: 2318567146238104961}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2286188711210654160
@@ -642,7 +743,6 @@ Transform:
   m_Children:
   - {fileID: 410756412404285877}
   - {fileID: 9023920710799649078}
-  - {fileID: 4590267763018518495}
   - {fileID: 451472048919404176}
   - {fileID: 4229767896268968432}
   m_Father: {fileID: 6125418877841557070}
@@ -1942,7 +2042,7 @@ MonoBehaviour:
   m_Camera: {fileID: 5703604640618314827}
   m_OriginBaseGameObject: {fileID: 3550281802392418133}
   m_CameraFloorOffsetObject: {fileID: 1990260034902638871}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!143 &8600397352363272548
 CharacterController:
@@ -2443,6 +2543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3598295175264900360}
+  - component: {fileID: 3987753564077256924}
   m_Layer: 0
   m_Name: Hand_Right
   m_TagString: Untagged
@@ -2464,8 +2565,106 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6638633230969135050}
-  m_Father: {fileID: 7027484730591225420}
+  m_Father: {fileID: 6125418877841557070}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3987753564077256924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4072647024116607792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.XR.TrackedPoseDriver
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_IgnoreTrackingState: 0
+  m_PositionInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Position
+      m_Type: 0
+      m_ExpectedControlType: Vector3
+      m_Id: bd3ecd66-9b57-4b67-8398-3f8d69dd3ae5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 65ae17c9-813c-4504-97fd-98408a36db0f
+        m_Path: <XRController>{RightHand}/devicePosition
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Position
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_RotationInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Rotation
+      m_Type: 0
+      m_ExpectedControlType: Quaternion
+      m_Id: b194bc3c-5d3c-4e78-b2e2-2c3cb878166c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: d064c084-6e30-4575-a7ac-0749dd34fee6
+        m_Path: <XRController>{RightHand}/deviceRotation
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Rotation
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Grip Tracking State
+      m_Type: 0
+      m_ExpectedControlType: Integer
+      m_Id: 37fafbbf-f0e1-4e92-b056-54c22cb35cec
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: f3fa65e8-2941-4369-8fc9-ba2e390f383b
+        m_Path: <XRController>{RightHand}/trackingState
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Grip Tracking State
+        m_Flags: 0
+      m_Flags: 0
+      m_Priority: 0
+    m_Reference: {fileID: 0}
+  m_PositionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c21f3bd4-9d6b-47e4-8d31-68a55ce09774
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
+  m_RotationAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e6c70a2f-9a3b-4d14-bb09-9ef69032f88f
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
 --- !u!1 &4286847606841648853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,7 +2701,6 @@ Transform:
   m_Children:
   - {fileID: 5376369678010715669}
   - {fileID: 7819311889536316456}
-  - {fileID: 3598295175264900360}
   - {fileID: 7954602283270483593}
   - {fileID: 4845495881170812604}
   m_Father: {fileID: 6125418877841557070}
