@@ -917,14 +917,6 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Teleport Toggle
       m_Flags: 0
-    - m_Name: 
-      m_Id: 85254b6c-6c69-466b-a19a-12c809afb244
-      m_Path: <XRController>{LeftHand}/thumbstickTouched
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Teleport Toggle
-      m_Flags: 0
     m_Flags: 0
     m_Priority: 0
   OnPress:
@@ -2870,14 +2862,6 @@ MonoBehaviour:
     - m_Name: 
       m_Id: 20cbc7b7-7294-41d1-aad9-c48ef4bcbd62
       m_Path: <XRController>{RightHand}/primaryButton
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Teleport Toggle
-      m_Flags: 0
-    - m_Name: 
-      m_Id: bd8d2886-5765-48a2-8b5c-b70438ef8f61
-      m_Path: <XRController>{RightHand}/thumbstickTouched
       m_Interactions: 
       m_Processors: 
       m_Groups: 
