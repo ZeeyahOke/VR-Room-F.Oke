@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/Hub.unity
     guid: c12ab8b3c92274cd88cad2366ea5f593
   - enabled: 1
-    path: Assets/Scenes/Fawziyyah Room.unity
+    path: Assets/_Project/Scenes/Fawziyyah Room.unity
     guid: 27db7de597d97c24fb816fd22b8ecb07
   - enabled: 1
     path: Assets/_Project/Scenes/VRRoom.unity
