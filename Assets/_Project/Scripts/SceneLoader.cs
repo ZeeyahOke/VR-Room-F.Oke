@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,7 +17,7 @@ public class SceneLoader : MonoBehaviour
         }
 
         isLoading = true;
-        SceneManager.LoadSceneAsync(sceneName);
+        StartCoroutine(FadeAndLoad(sceneName));
     }
 
     public void LoadHub()
@@ -27,5 +28,16 @@ public class SceneLoader : MonoBehaviour
     public void LoadOtherRoom()
     {
         LoadScene(otherRoomSceneName);
+    }
+
+    private IEnumerator FadeAndLoad(string sceneName)
+    {
+        ScreenFade fade = FindFirstObjectByType<ScreenFade>();
+        if (fade != null)
+        {
+            yield return fade.FadeOut();
+        }
+
+        SceneManager.LoadSceneAsync(sceneName);
     }
 }
