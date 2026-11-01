@@ -118,3 +118,6 @@ InitTestScene*.unity*
 .DS_Store
 .vscode/
 .gitattributes
+
+# Burst build debug info
+*_BurstDebugInformation_DoNotShip/
