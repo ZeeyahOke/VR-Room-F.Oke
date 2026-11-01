@@ -22843,6 +22843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Interaction Simulator
       objectReference: {fileID: 0}
+    - target: {fileID: 8135023674665499069, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -32996,6 +33000,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NavigationMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 4504394964599903084, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6052441685388354669, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6189573785837747062, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_text
       value: Go to Create with VR Room
@@ -33011,6 +33023,10 @@ PrefabInstance:
     - target: {fileID: 6525537029636604477, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7459452844992656524, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8222609586173291081, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_LocalPosition.x
