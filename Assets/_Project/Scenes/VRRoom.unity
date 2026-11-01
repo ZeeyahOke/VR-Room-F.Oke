@@ -29631,7 +29631,7 @@ MonoBehaviour:
     Grip: grab    
     Trigger: use or click
 
-    Menu button: return to the hub or switch rooms'
+    Menu button: menu and settings'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bd8a2bf6f506e4f10be260686a7d5e4b, type: 2}
   m_sharedMaterial: {fileID: -9184109103186313305, guid: bd8a2bf6f506e4f10be260686a7d5e4b, type: 2}
@@ -32984,10 +32984,6 @@ PrefabInstance:
       propertyPath: otherRoomSceneName
       value: Fawziyyah Room
       objectReference: {fileID: 0}
-    - target: {fileID: 2271457499123152898, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -1.96
-      objectReference: {fileID: 0}
     - target: {fileID: 3872935506437100221, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4281868842
@@ -32999,14 +32995,6 @@ PrefabInstance:
     - target: {fileID: 4237467835558430798, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_Name
       value: NavigationMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 5273788577547548235, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6179423639629439664, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.72
       objectReference: {fileID: 0}
     - target: {fileID: 6189573785837747062, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_text
@@ -33023,10 +33011,6 @@ PrefabInstance:
     - target: {fileID: 6525537029636604477, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7459452844992656524, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8222609586173291081, guid: 2243b057b19a2479cbb97ed24f6040cb, type: 3}
       propertyPath: m_LocalPosition.x
