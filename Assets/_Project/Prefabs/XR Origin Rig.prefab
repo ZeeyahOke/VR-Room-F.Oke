@@ -1995,6 +1995,7 @@ GameObject:
   - component: {fileID: 1992642018514984421}
   - component: {fileID: 8600397352363272548}
   - component: {fileID: 8517847233793269464}
+  - component: {fileID: 2064071707741371846}
   m_Layer: 0
   m_Name: XR Origin Rig
   m_TagString: Untagged
@@ -2076,6 +2077,19 @@ MonoBehaviour:
   snapTurn: {fileID: 5069183265533074398}
   smoothTurn: {fileID: 2857874127337356152}
   vignette: {fileID: 244589932711253342}
+--- !u!114 &2064071707741371846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550281802392418133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c5de46264443eeb31a083edd34a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioOutputRestarter
+  delay: 1
 --- !u!1 &3879172792831908933
 GameObject:
   m_ObjectHideFlags: 0
