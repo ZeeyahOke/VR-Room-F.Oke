@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6571472247617581253}
   - component: {fileID: 2783785534309788201}
   - component: {fileID: 3823445783343434519}
+  - component: {fileID: 2701101002418808490}
   m_Layer: 5
   m_Name: SwitchRoomButton
   m_TagString: Untagged
@@ -150,6 +151,22 @@ MonoBehaviour:
   hoverScale: 1.06
   pressScale: 0.96
   speed: 12
+--- !u!114 &2701101002418808490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972117583211960779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1434b13125c49e8b1b441419ddc460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  source: {fileID: 5475163038882985743}
+  hoverClip: {fileID: 8300000, guid: cbca6f23424bd42c9a2cae00f5b644ea, type: 3}
+  clickClip: {fileID: 8300000, guid: 8514acdb166b1499a9ee49941ff691f0, type: 3}
+  hoverVolume: 0.4
 --- !u!1 &1189508442224965266
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +405,7 @@ GameObject:
   - component: {fileID: 5197381944998020347}
   - component: {fileID: 2248626316302780849}
   - component: {fileID: 7330153896224375465}
+  - component: {fileID: 8220705591871803116}
   m_Layer: 5
   m_Name: HubButton
   m_TagString: Untagged
@@ -525,6 +543,22 @@ MonoBehaviour:
   hoverScale: 1.06
   pressScale: 0.96
   speed: 12
+--- !u!114 &8220705591871803116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2584695669005505875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1434b13125c49e8b1b441419ddc460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  source: {fileID: 5475163038882985743}
+  hoverClip: {fileID: 8300000, guid: cbca6f23424bd42c9a2cae00f5b644ea, type: 3}
+  clickClip: {fileID: 8300000, guid: 8514acdb166b1499a9ee49941ff691f0, type: 3}
+  hoverVolume: 0.4
 --- !u!1 &3671995253618848716
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,6 +572,7 @@ GameObject:
   - component: {fileID: 4573334869200085457}
   - component: {fileID: 8609653311918977958}
   - component: {fileID: 8822718905538588784}
+  - component: {fileID: 3123190091019212351}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -675,6 +710,22 @@ MonoBehaviour:
   hoverScale: 1.06
   pressScale: 0.96
   speed: 12
+--- !u!114 &3123190091019212351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3671995253618848716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1434b13125c49e8b1b441419ddc460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSound
+  source: {fileID: 5475163038882985743}
+  hoverClip: {fileID: 8300000, guid: cbca6f23424bd42c9a2cae00f5b644ea, type: 3}
+  clickClip: {fileID: 8300000, guid: 3a8730ed83cf54ec3af36761459c24e8, type: 3}
+  hoverVolume: 0.4
 --- !u!1 &4237467835558430798
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1512,8 @@ GameObject:
   - component: {fileID: 6525537029636604477}
   - component: {fileID: 7444966792947392198}
   - component: {fileID: 4823560084278131742}
+  - component: {fileID: 5475163038882985743}
+  - component: {fileID: 7502572532890261223}
   m_Layer: 5
   m_Name: NavigationCanvas
   m_TagString: Untagged
@@ -1570,6 +1623,116 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!82 &5475163038882985743
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459452844992656524}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 15
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &7502572532890261223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459452844992656524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66875421f61124360b44b04fb6753f27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChannelVolume
+  isMusic: 0
 --- !u!1 &7722194527722441934
 GameObject:
   m_ObjectHideFlags: 0
